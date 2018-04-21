@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/author"
+    android:paddingLeft="@dimen/review_8"
+    android:paddingTop="@dimen/review_8"
+    android:textSize="@dimen/review_size_16"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    tools:text = "Mary John"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/review"
+        android:paddingLeft="@dimen/review_8"
+        android:textSize="@dimen/review_size_14"
+        android:textColor="@android:color/white"
+        android:paddingTop="8dp"
+        tools:text = "This is an awesome movie. This is an inspiration from a very famous novel.I am watching it the Nth time."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/review_1"
+        android:layout_marginTop="@dimen/review_16"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>

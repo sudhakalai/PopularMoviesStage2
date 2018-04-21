@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Popular Movies Stage 1</string>
+
+    <string name="popular">Sort by popularity</string>
+    <string name="most_rated">Sort by most rated</string>
+    <string name="favorites">Sort by favorites</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="no_fav">No favorites to display.</string>
+    <string name="movie_name">Name</string>
+    <string name="plot">Plot synopsis</string>
+    <string name="release">Release date</string>
+    <string name="image_desc">This image view contains the poster of the film</string>
+    <string name="error_message">An error has occurred.</string>
+    <string name="favorite">Favorite</string>
+    <string name="user_rating">Rating</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="movie_added">Movie added to favorites</string>
+    <string name="movie_not_added">Movie could not be added to favorites</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="most_rated_movies">Most Rated Movies</string>
+    <string name="favorite_movies">Favorite Movies</string>
+    <string name="delete_success">Deletion was successful</string>
+    <string name="delete_failed">Deletion Failed</string>
+
+</resources>

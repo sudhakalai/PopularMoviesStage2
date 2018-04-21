@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/iv_poster_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:paddingTop ="@dimen/grid_16"
+        android:paddingLeft="@dimen/grid_16"
+        android:paddingStart="@dimen/grid_16"
+        android:paddingRight="@dimen/grid_16"
+        android:paddingEnd="@dimen/grid_16"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_poster_grid"
+        android:id="@+id/tv_name"
+        android:maxLines="1"
+        android:gravity="left"
+        android:paddingLeft="@dimen/grid_32"
+        android:paddingStart="@dimen/grid_32"
+        android:paddingTop="@dimen/grid_8"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_name"
+        android:gravity="left"
+        android:paddingLeft="@dimen/grid_32"
+        android:paddingStart="@dimen/grid_32"
+        android:paddingTop="@dimen/grid_8"
+        android:paddingBottom="@dimen/grid_8"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingTvMain"
+            android:textColor="@android:color/white"
+            tools:text= "8.1"/>
+
+        <ImageView
+            android:layout_width="@dimen/grid_16"
+            android:layout_height="@dimen/grid_16"
+            android:src="@drawable/ic_star_black_24dp"
+            android:tint="@android:color/white"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

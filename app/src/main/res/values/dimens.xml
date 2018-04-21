@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--activity_favorites-->
+    <dimen name="fav_tv_padding">16dp</dimen>
+    <dimen name="fav_tv_size">20sp</dimen>
+    <!--activity_main-->
+    <dimen name="main_tv_padding">16dp</dimen>
+    <dimen name="main_tv_size">20sp</dimen>
+    <dimen name="main_progress_bar">42dp</dimen>
+    <!--activity_movie_details-->
+    <dimen name="movie_details_16">16dp</dimen>
+    <dimen name="movie_details_8">8dp</dimen>
+    <dimen name="movie_details_size_16">16sp</dimen>
+    <dimen name="movie_details_size_18">18sp</dimen>
+    <dimen name="movie_details_size_22">22sp</dimen>
+    <dimen name="movie_details_0">0dp</dimen>
+    <dimen name="movie_details_1">1dp</dimen>
+    <!--movie_fav_grid_item-->
+    <dimen name="fav_grid_16">16dp</dimen>
+    <dimen name="fav_grid_8">8dp</dimen>
+    <dimen name="fav_grid_32">32dp</dimen>
+    <!--movie_grid_item-->
+    <dimen name="grid_16">16dp</dimen>
+    <dimen name="grid_8">8dp</dimen>
+    <dimen name="grid_32">32dp</dimen>
+    <!--movie_review_item-->
+    <dimen name="review_16">16dp</dimen>
+    <dimen name="review_8">8dp</dimen>
+    <dimen name="review_1">1dp</dimen>
+    <dimen name="review_size_16">16sp</dimen>
+    <dimen name="review_size_14">14sp</dimen>
+    <!--movie_trailer_item-->
+    <dimen name="trailer_8">8dp</dimen>
+
+</resources>

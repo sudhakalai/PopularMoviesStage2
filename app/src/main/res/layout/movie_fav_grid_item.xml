@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/iv_fav_grid"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorAccent"
+        android:paddingTop ="@dimen/fav_grid_16"
+        android:paddingLeft="@dimen/fav_grid_16"
+        android:paddingStart="@dimen/fav_grid_16"
+        android:paddingRight="@dimen/fav_grid_16"
+        android:paddingEnd="@dimen/fav_grid_16"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_fav_grid"
+        android:id="@+id/tv_fav_name"
+        android:maxLines="1"
+        android:gravity="left"
+        android:paddingLeft="@dimen/fav_grid_32"
+        android:paddingStart="@dimen/fav_grid_32"
+        android:paddingTop="@dimen/fav_grid_8"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/tv_fav_name"
+        android:id="@+id/rating_layout"
+        android:gravity="left"
+        android:paddingLeft="@dimen/fav_grid_32"
+        android:paddingStart="@dimen/fav_grid_32"
+        android:paddingTop="@dimen/fav_grid_8"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingFavTvMain"
+            android:textColor="@android:color/white"
+            tools:text= "8.1"/>
+
+        <ImageView
+            android:layout_width="@dimen/fav_grid_16"
+            android:layout_height="@dimen/fav_grid_16"
+            android:src="@drawable/ic_star_black_24dp"
+            android:tint="@android:color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/rating_layout"
+        android:gravity="left"
+        android:paddingLeft="@dimen/fav_grid_32"
+        android:paddingStart="@dimen/fav_grid_32"
+        android:paddingTop="@dimen/fav_grid_8"
+        android:paddingBottom="@dimen/fav_grid_8"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text= "ID:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_id"
+            android:textColor="@android:color/white"
+            tools:text= "06565"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

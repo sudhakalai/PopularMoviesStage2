@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="@dimen/movie_details_16"
+        android:paddingLeft="@dimen/movie_details_16"
+        android:paddingBottom="@dimen/movie_details_16"
+        tools:context="com.example.android.popularmoviesstage1.MovieDetailsActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/movie_details_16"
+            android:paddingBottom="@dimen/movie_details_16"
+            android:contentDescription="@string/image_desc"
+            android:id="@+id/iv_fav_poster"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/movie_details_8"
+            android:textStyle="bold"
+            android:textSize="@dimen/movie_details_size_18"
+            android:textColor="@android:color/white"
+            android:text="@string/movie_name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/movie_details_size_16"
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_fav_movie_name" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/movie_details_16"
+            android:paddingBottom="@dimen/movie_details_8"
+            android:textStyle="bold"
+            android:textSize="@dimen/movie_details_size_18"
+            android:textColor="@android:color/white"
+            android:text="@string/plot"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/movie_details_size_16"
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_fav_movie_plot" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/movie_details_16"
+            android:paddingBottom="@dimen/movie_details_8"
+            android:textStyle="bold"
+            android:textSize="@dimen/movie_details_size_18"
+            android:textColor="@android:color/white"
+            android:text="@string/release"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/movie_details_size_16"
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_fav_movie_release" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/movie_details_16"
+            android:paddingBottom="@dimen/movie_details_8"
+            android:textStyle="bold"
+            android:textSize="@dimen/movie_details_size_18"
+            android:textColor="@android:color/white"
+            android:text="@string/user_rating"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/movie_details_size_16"
+            android:textColor="@android:color/white"
+            android:id="@+id/tv_fav_movie_rating" />
+
+    </LinearLayout>
+
+</ScrollView>
