@@ -37,7 +37,7 @@ public class MovieUtils {
 
     final static String API_KEY = "api_key";
 
-    final static String key = "19b08bc19aad8caf9456b4d2ac0179ea"; // enter your api key
+    final static String key = ""; // enter your api key
 
     /*****
      *
