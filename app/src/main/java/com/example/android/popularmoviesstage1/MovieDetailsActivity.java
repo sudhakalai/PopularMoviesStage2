@@ -24,6 +24,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -53,6 +54,7 @@ public class MovieDetailsActivity extends AppCompatActivity implements TrailerAd
     private TextView ratingTv;
     private TextView releaseTv;
     private ImageView posterIv;
+    private ScrollView movieDetailsSv;
     private ImageButton favButton;
     private boolean isEnable;
     private RecyclerView trailerRecyclerView;
@@ -87,6 +89,7 @@ public class MovieDetailsActivity extends AppCompatActivity implements TrailerAd
         ratingTv = findViewById(R.id.tv_movie_rating);
         releaseTv = findViewById(R.id.tv_movie_release);
         posterIv = findViewById(R.id.iv_poster);
+        movieDetailsSv = findViewById(R.id.sv_fav_movie);
         mTrialerClickHandler = this;
         context = this;
 

@@ -60,7 +60,7 @@ public class FavoritesActivity extends AppCompatActivity implements LoaderManage
 
         mRecyclerView.setAdapter(movieCursorAdapter);
 
-       // getLoaderManager().initLoader(TASK_LOADER_ID, null, this);
+        getLoaderManager().initLoader(TASK_LOADER_ID, null, this);
     }
 
     @Override

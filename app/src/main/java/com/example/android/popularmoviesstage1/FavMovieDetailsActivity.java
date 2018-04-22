@@ -7,6 +7,8 @@ import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.ScrollView;
+import android.widget.Scroller;
 import android.widget.TextView;
 
 import com.example.android.popularmoviesstage1.Data.FavoriteMovieContract;
@@ -19,6 +21,7 @@ public class FavMovieDetailsActivity extends AppCompatActivity {
     private TextView ratingTv;
     private TextView releaseTv;
     private ImageView posterIv;
+    private ScrollView favMovieSv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +34,7 @@ public class FavMovieDetailsActivity extends AppCompatActivity {
         ratingTv = findViewById(R.id.tv_fav_movie_rating);
         releaseTv = findViewById(R.id.tv_fav_movie_release);
         posterIv = findViewById(R.id.iv_fav_poster);
+        favMovieSv = findViewById(R.id.sv_fav_movie);
 
         Intent intent = getIntent();
         if (intent != null) {
